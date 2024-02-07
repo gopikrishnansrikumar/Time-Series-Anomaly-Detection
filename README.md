@@ -1,7 +1,8 @@
-***************Time-Series-Anomaly-Detection***************
+# Time-Series-Anomaly-Detection
 The process of identifying and labelling anomalies in a time series is called time series anomaly detection. Different anomaly detection techniques use contrasting approaches for marking irregularities. 
 
-*************Benchmark Algorithms***************
+# Benchmark Algorithms
+
 # Isolation Forest
 Isolation Forest is an unsupervised machine learning algorithm designed for anomaly detection. Developed on the principle of isolating anomalies rather than normal data points, the method employs binary decision trees to create a model. In the training phase, the algorithm randomly selects a feature and a split value to isolate instances containing anomalies efficiently. Anomalies are expected to require fewer splits to be isolated in the tree structure, making them stand out. During the testing phase, the isolation forest can rapidly identify anomalies by measuring the average path length of instances through the trees. This approach is particularly effective for detecting outliers or rare events in large datasets and demonstrates efficiency in terms of both computational resources and accuracy.
 
