@@ -13,7 +13,7 @@ One-Class Support Vector Machine (One-Class SVM) is a machine learning algorithm
 
 ![image](https://github.com/gopikrishnansrikumar/Time-Series-Anomaly-Detection/assets/138595672/a356be3b-bd3b-4242-b3d6-6242cb563e52)
 
-#Local Outlier Factor (LOF)
+# Local Outlier Factor (LOF)
 The Local Outlier Factor (LOF) is an unsupervised machine learning algorithm designed for anomaly detection in datasets. Developed to identify local deviations of data points from their neighbors, LOF assigns an anomaly score to each instance based on its relative density compared to its surrounding data points. The algorithm considers the local density of a data point in relation to the densities of its neighbors, with anomalies exhibiting lower local densities than their neighbors receiving higher LOF scores. This approach allows LOF to effectively capture outliers that may not be distinguishable in a global context. LOF is particularly useful in scenarios where anomalies have varying densities and spatial distributions, making it versatile for applications such as fraud detection, network security, and quality control in industrial processes.
 
 ![image](https://github.com/gopikrishnansrikumar/Time-Series-Anomaly-Detection/assets/138595672/f584ee6d-ae21-4175-8e68-3d83e4244f31)
